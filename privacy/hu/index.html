@@ -33,6 +33,7 @@
         <li>Az alkalmazás nem tartalmaz hirdetési, analitikai, hibajelentési vagy távoli push értesítési szolgáltatást. Az opcionális tréningemlékeztetőt az eszközöd helyben ütemezi.</li>
         <li>Az alkalmazás adatai helyben, az eszközödön maradnak, kivéve, ha kifejezetten exportálsz egy fájlt.</li>
         <li>A Chess.com- és Lichess-felhasználónevet csak akkor küldi el az app a kiválasztott szolgáltatásnak, amikor játszmák betöltését kéred.</li>
+        <li>Ha értékelést vagy véleményt küldesz be, az közvetlenül a Google Playhez kerül, és a Google szabályai vonatkoznak rá.</li>
       </ul>
 
       <h2>3. Az eszközön tárolt adatok</h2>
@@ -41,6 +42,7 @@
         <li>a megnyitási könyvek neve, sakkállások, lépések, változatok és az időzített ismétlés állapota;</li>
         <li>edzési beállítások, kiválasztott repertoárok, nyelv, téma, jelölésmód és a bevezető állapota;</li>
         <li>az opcionális napi tréningemlékeztető bekapcsolt állapota és az általad választott időpont;</li>
+        <li>a sikeres Sprintek számlálója és az értékeléskérési időpontok, amelyekkel az app korlátozza a natív Google Play-értékeléskérés gyakoriságát;</li>
         <li>az általad megadott Chess.com- és Lichess-felhasználónév;</li>
         <li>a Chess Opening Trainer formátumban importált megnyitási könyvek adatai.</li>
       </ul>
@@ -59,24 +61,29 @@
       <p>A Beállításokban bekapcsolhatsz naponta egy tréningemlékeztetőt, és kiválaszthatod az időpontját. Az app csak a funkció bekapcsolásakor kér értesítési engedélyt. Az emlékeztetőt az eszköz operációs rendszere ütemezi; a bekapcsolt állapot és a választott időpont helyben tárolódik. Az emlékeztetővel kapcsolatos adat nem kerül a Quackline Studio vagy távoli értesítési szolgáltatás részére.</p>
       <p>Az időpontot bármikor módosíthatod, az emlékeztetőt pedig kikapcsolhatod a Beállításokban. Az értesítési engedélyt az eszköz rendszerbeállításaiban is kezelheted. Az operációs rendszer, az akkumulátorkezelés vagy a készülék gyártójának korlátozásai késleltethetik vagy megakadályozhatják a kézbesítést.</p>
 
-      <h2>6. Az adatok felhasználása és továbbítása</h2>
+      <h2>6. Google Play-értékelések és -vélemények</h2>
+      <p>A Beállítások képernyőről megnyithatod az alkalmazás Google Play-oldalát, ahol értékelést vagy véleményt írhatsz. Több hibátlanul befejezett Sprint tréning után az app megkérheti a Google Playt a natív alkalmazáson belüli értékelőkártya megjelenítésére. A kérés gyakoriságát az app helyben korlátozza, sikertelen vagy félbeszakított tréning után pedig nem kezdeményezi. Egyetlen funkció vagy jutalom sem függ az értékelés beküldésétől.</p>
+      <p>Ha csillagértékelést vagy szöveges véleményt küldesz be, azt a Google Play fogadja és tárolja. Az éles értékelés nyilvános lehet; zárt tesztelési sávban a visszajelzés privát módon megosztható a fejlesztővel. A Google az adatokat a <a href="https://policies.google.com/privacy">Google adatvédelmi irányelvei</a> és a <a href="https://play.google.com/about/play-terms/">Google Play Felhasználási feltételei</a> szerint kezeli. A beküldött értékelést a Google Play- vagy Google-fiókodban kezelheted, illetve törölheted.</p>
+      <p>A Chess Opening Trainer nem kapja meg az értékelést vagy véleményt Quackline Studio-szerveren keresztül, az alkalmazáson belüli értékelési API pedig nem közli az appal, hogy beküldtél-e értékelést. Az app kizárólag a túl gyakori kérés elkerüléséhez szükséges helyi számlálókat és időpontokat tárolja.</p>
+
+      <h2>7. Az adatok felhasználása és továbbítása</h2>
       <p>A helyi adatokat az app a repertoárszerkesztéshez, edzéshez, statisztikákhoz, beállításokhoz, importáláshoz, exportáláshoz és játszma-összehasonlításhoz használja. A Quackline Studio nem értékesít személyes adatokat, és a helyi alkalmazásadatokat nem osztja meg hirdetőkkel vagy adatkereskedőkkel.</p>
       <p>A jelenlegi alkalmazás kizárólag a felhasználó által kezdeményezett módon továbbít harmadik félnek adatot: a nyilvános felhasználónevet és a kapcsolat szokásos technikai adatait a Chess.comnak vagy a Lichessnek küldi nyilvános játszmák lekéréséhez. A letöltött játszmaadatok az eszközön maradnak, és nem kerülnek Quackline Studio-szerverre.</p>
 
-      <h2>7. Megőrzés és törlés</h2>
-      <p>A helyi adatok addig maradnak az eszközödön, amíg nem törlöd az adott megnyitási könyvet, nem törlöd az alkalmazás tárhelyét az eszköz beállításaiban, vagy el nem távolítod az alkalmazást. A csak munkamenetben használt játszmaadatokat az app eldobja, amikor a futó alkalmazás már nem tartja őket a memóriában. A Quackline Studio nem rendelkezik törölhető szerveroldali másolattal.</p>
+      <h2>8. Megőrzés és törlés</h2>
+      <p>A helyi adatok, köztük az értékeléskérési számlálók, addig maradnak az eszközödön, amíg nem törlöd az adott megnyitási könyvet, nem törlöd az alkalmazás tárhelyét az eszköz beállításaiban, vagy el nem távolítod az alkalmazást. A csak munkamenetben használt játszmaadatokat az app eldobja, amikor a futó alkalmazás már nem tartja őket a memóriában. A Quackline Studio nem rendelkezik törölhető szerveroldali másolattal.</p>
       <p>A Chess.com vagy Lichess által tárolt adatokkal kapcsolatos kérelmeket az adott szolgáltató adatvédelmi irányelveiben szereplő vezérlőkön és kapcsolati módokon keresztül kell benyújtani.</p>
 
-      <h2>8. Biztonság</h2>
+      <h2>9. Biztonság</h2>
       <p>Az app a tartós adatokat az alkalmazás privát tárhelyén tárolja, a Chess.com- és Lichess-API-kérésekhez pedig HTTPS-kapcsolatot használ. Egyetlen tárolási vagy átviteli módszer sem teljesen kockázatmentes, ezért védd az eszközödhöz való hozzáférést, és szükség szerint készíts biztonsági másolatot az exportált megnyitási könyvekről.</p>
 
-      <h2>9. Gyermekek adatainak védelme</h2>
+      <h2>10. Gyermekek adatainak védelme</h2>
       <p>Az app nem hoz létre felhasználói fiókot, és a Quackline Studio számára tudatosan nem gyűjt személyes adatot. Kiskorú harmadik fél sakkplatformjának használatát szülő vagy gondviselő felügyelje, és ellenőrizze, hogy az megfelel az adott szolgáltatás életkori feltételeinek.</p>
 
-      <h2>10. Az irányelvek módosítása</h2>
+      <h2>11. Az irányelvek módosítása</h2>
       <p>Az adatkezelés lényeges változása, például analitika, hibajelentés, hirdetés, felhőtárhely vagy távoli értesítési szolgáltatás bevezetése előtt frissítjük ezt a dokumentumot. Az oldal tetején lévő dátum jelzi a legújabb változatot. Ezzel egy időben a Google Play Data safety válaszait is frissítjük.</p>
 
-      <h2>11. Kapcsolat</h2>
+      <h2>12. Kapcsolat</h2>
       <p>Az irányelvekkel vagy a Chess Opening Trainer adatkezelésével kapcsolatos kérdéseket a <a href="mailto:quackline.studio@proton.me">quackline.studio@proton.me</a> címre küldheted.</p>
     </main>
     <footer class="site-footer"><div class="site-footer__inner">Quackline Studio · Chess Opening Trainer</div></footer>
